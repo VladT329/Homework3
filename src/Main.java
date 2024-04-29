@@ -11,7 +11,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Задание 2");
-        int temperature = 6;
+        int temperature = 5;
         if (temperature < 5) {
             System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
         } else {
@@ -59,15 +59,15 @@ public class Main {
 
         System.out.println("Задание 6");
         int place = 50;
-        if (place <= 120) {
+        if (place <= 102) {
             if (place <=60) {
                 System.out.println("Если место №" + place + ", то это сидячее место");
             }
-            if (place > 60 && place <= 120) {
+            if (place > 60 && place <= 102) {
                 System.out.println("Если место №" + place + ", то это стоячее место");
             }
         } else {
-            System.out.println("Места № " + place + " не существует. Поезд рассчитан только на 120 мест");
+            System.out.println("Места № " + place + " не существует. Вагон рассчитан только на 102 мест");
         }
         System.out.println();
 
